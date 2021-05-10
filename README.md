@@ -2,7 +2,7 @@
 
 ## Digital Clock
 
-**[View Project](#)**
+**[View Project](https://rubensinzig.github.io/DigitalClockApp/)**
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-[![Screenshot from Project](/src/images/readme-screenshot.png)](#)
+[![Screenshot from Project](/src/images/project-screenshot.png)](https://rubensinzig.github.io/DigitalClockApp/)
 
 ### About Project
 
@@ -30,11 +30,11 @@ Project description
 
 ##### Developed With
 
-- [ ] _HTML5_
+- [x] _HTML5_ [--> go to file](https://github.com/rubenSinzig/DigitalClockApp/blob/main/src/index.html)
 - [ ] _CSS3_
 - [ ] _SASS_
-- [ ] _SCSS_
-- [ ] _JavaScript_
+- [x] _SCSS_ [--> go to folder](https://github.com/rubenSinzig/DigitalClockApp/tree/main/src/scss)
+- [x] _JavaScript_ [--> go to file](https://github.com/rubenSinzig/DigitalClockApp/blob/main/src/scripts/index.js)
 - [ ] _React_
 - [ ] _Bootstrap_
 - [ ] _..._
