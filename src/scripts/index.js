@@ -17,11 +17,11 @@ const startTime = () => {
     s = `0${s}`;
   }
 
-  //
+  // time format hh:mm:ss
   time.innerHTML = `${h} : ${m} : ${s}`;
 
-  //
-  setTimeout(startTime, 500);
+  // displays the current time without reloading
+  setTimeout(startTime);
 };
 
 // event listener
