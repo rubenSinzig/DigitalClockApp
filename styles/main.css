@@ -6429,14 +6429,11 @@ body .container {
   position: absolute;
   top: center;
   left: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 body .container p {
   font-size: 4rem;
   color: white;
-  text-shadow: 0 0 8px white;
+  text-shadow: 0 0 5px white;
 }
 @media only screen and (max-width: 700px) {
   body .container {
@@ -6444,6 +6441,7 @@ body .container p {
   }
   body .container p {
     font-size: 3rem;
+    text-shadow: 0 0 4px white;
   }
 }
 @media screen and (max-width: 480px) {
@@ -6452,6 +6450,7 @@ body .container p {
   }
   body .container p {
     font-size: 2rem;
+    text-shadow: 0 0 3px white;
   }
 }
 
