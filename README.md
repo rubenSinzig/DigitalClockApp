@@ -26,7 +26,7 @@
 
 ### About Project
 
-Project description
+Digital clock developed with HTML, SCSS and JavaScript. The app displays the current system time in HH:MM:SS format.
 
 ##### Developed With
 
