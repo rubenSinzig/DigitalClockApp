@@ -6404,4 +6404,55 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+@font-face {
+  src: url(../../fonts/Orbitron-VariableFont_wght.ttf);
+  font-family: "Orbitron";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron";
+}
+body .container {
+  width: 25rem;
+  height: auto;
+  position: absolute;
+  top: center;
+  left: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container p {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 0 8px white;
+}
+@media only screen and (max-width: 700px) {
+  body .container {
+    width: 18rem;
+  }
+  body .container p {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  body .container {
+    width: 12rem;
+  }
+  body .container p {
+    font-size: 2rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
